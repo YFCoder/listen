@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
+
 
 @end
 
@@ -22,6 +24,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+   
+    
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    // 给出soundID
+    
+    CFURLRef url = (__bridge CFURLRef)[[NSBundle mainBundle] URLForResource:@"春上村树" withExtension:nil];
+    SystemSoundID soundID = 0;
+    
+    AudioServicesCreateSystemSoundID(url, &soundID);
+    //播放音乐
+    AudioServicesPlayAlertSound(soundID);
+    
 }
 
 @end

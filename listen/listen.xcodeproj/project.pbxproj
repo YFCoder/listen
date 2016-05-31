@@ -15,6 +15,8 @@
 		66AA6C061CFDDFB400E68DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66AA6C041CFDDFB400E68DCF /* LaunchScreen.storyboard */; };
 		66AA6C111CFDDFB400E68DCF /* listenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AA6C101CFDDFB400E68DCF /* listenTests.m */; };
 		66AA6C1C1CFDDFB400E68DCF /* listenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AA6C1B1CFDDFB400E68DCF /* listenUITests.m */; };
+		66AA6C2B1CFDE79100E68DCF /* 春上村树.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66AA6C291CFDE79100E68DCF /* 春上村树.wav */; settings = {ASSET_TAGS = (); }; };
+		66AA6C2C1CFDE79100E68DCF /* 天使爱哭泣.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66AA6C2A1CFDE79100E68DCF /* 天使爱哭泣.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		66AA6C171CFDDFB400E68DCF /* listenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AA6C1B1CFDDFB400E68DCF /* listenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listenUITests.m; sourceTree = "<group>"; };
 		66AA6C1D1CFDDFB400E68DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66AA6C291CFDE79100E68DCF /* 春上村树.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "春上村树.wav"; sourceTree = "<group>"; };
+		66AA6C2A1CFDE79100E68DCF /* 天使爱哭泣.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "天使爱哭泣.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 		66AA6BF61CFDDFB400E68DCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				66AA6C291CFDE79100E68DCF /* 春上村树.wav */,
+				66AA6C2A1CFDE79100E68DCF /* 天使爱哭泣.wav */,
 				66AA6BF71CFDDFB400E68DCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AA6C2C1CFDE79100E68DCF /* 天使爱哭泣.wav in Resources */,
 				66AA6C061CFDDFB400E68DCF /* LaunchScreen.storyboard in Resources */,
+				66AA6C2B1CFDE79100E68DCF /* 春上村树.wav in Resources */,
 				66AA6C031CFDDFB400E68DCF /* Assets.xcassets in Resources */,
 				66AA6C011CFDDFB400E68DCF /* Main.storyboard in Resources */,
 			);

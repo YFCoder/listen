@@ -30,7 +30,7 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     // 给出soundID
     
-    CFURLRef url = (__bridge CFURLRef)[[NSBundle mainBundle] URLForResource:@"春上村树" withExtension:nil];
+    CFURLRef url = (__bridge CFURLRef)[[NSBundle mainBundle] URLForResource:@"m_03.wav" withExtension:nil];
     SystemSoundID soundID = 0;
     
     AudioServicesCreateSystemSoundID(url, &soundID);

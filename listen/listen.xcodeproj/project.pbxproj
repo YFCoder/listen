@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663A84091CFDF8BD00A7849E /* m_03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 663A84081CFDF8BD00A7849E /* m_03.wav */; settings = {ASSET_TAGS = (); }; };
 		66AA6BF81CFDDFB400E68DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AA6BF71CFDDFB400E68DCF /* main.m */; };
 		66AA6BFB1CFDDFB400E68DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AA6BFA1CFDDFB400E68DCF /* AppDelegate.m */; };
 		66AA6BFE1CFDDFB400E68DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AA6BFD1CFDDFB400E68DCF /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		663A84081CFDF8BD00A7849E /* m_03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m_03.wav; sourceTree = "<group>"; };
 		66AA6BF31CFDDFB400E68DCF /* listen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66AA6BF71CFDDFB400E68DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66AA6BF91CFDDFB400E68DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				66AA6C291CFDE79100E68DCF /* 春上村树.wav */,
 				66AA6C2A1CFDE79100E68DCF /* 天使爱哭泣.wav */,
+				663A84081CFDF8BD00A7849E /* m_03.wav */,
 				66AA6BF71CFDDFB400E68DCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -253,6 +256,7 @@
 				66AA6C2C1CFDE79100E68DCF /* 天使爱哭泣.wav in Resources */,
 				66AA6C061CFDDFB400E68DCF /* LaunchScreen.storyboard in Resources */,
 				66AA6C2B1CFDE79100E68DCF /* 春上村树.wav in Resources */,
+				663A84091CFDF8BD00A7849E /* m_03.wav in Resources */,
 				66AA6C031CFDDFB400E68DCF /* Assets.xcassets in Resources */,
 				66AA6C011CFDDFB400E68DCF /* Main.storyboard in Resources */,
 			);
@@ -505,6 +509,7 @@
 				66AA6C221CFDDFB400E68DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66AA6C231CFDDFB400E68DCF /* Build configuration list for PBXNativeTarget "listenTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				66AA6C251CFDDFB400E68DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66AA6C261CFDDFB400E68DCF /* Build configuration list for PBXNativeTarget "listenUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				66AA6C281CFDDFB400E68DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
